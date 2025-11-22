@@ -6,7 +6,7 @@
 ---
 
 ## 📝 Sobre o Sistema
-Este projeto consiste em uma aplicação web de um **To-Do List**, desenvolvida com **Python** e **Flask**, no formato de **API REST**.  
+Este projeto consiste em uma aplicação web de um **To-Do List**, desenvolvida com **Python** e **Flask**.
 
 O sistema permite que o usuário gerencie suas tarefas do dia a dia de forma prática, oferecendo funcionalidades como:  
 - Criar uma nova tarefa  
@@ -19,16 +19,14 @@ O objetivo principal deste projeto é evidenciar como o uso de testes automatiza
 ---
 
 ## ⚙️ Tecnologias Utilizadas
-O projeto pode ser desenvolvido utilizando as seguintes tecnologias:  
+O projeto foi desenvolvido utilizando as seguintes tecnologias:  
 
 - **Linguagem de Programação**: Python
 - **Framework Web**: Flask  
 - **Banco de Dados**:  
   - SQLite
-  - PostgreSQL/MySQL
 - **Testes Automatizados**:  
-  - unittest
   - pytest
-- **Cliente de Teste de API**: Postman ou cURL
+- **Cliente de Teste de API**: cURL
 
 ---
