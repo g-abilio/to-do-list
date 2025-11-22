@@ -35,4 +35,9 @@ jobs:
         run: |
           pytest --cov=app --cov-report=xml --cov-report=term-missing
 
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.de9a9058-0ca9-48d5-9bc3-656228b15ecc }}
+
  
