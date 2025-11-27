@@ -30,3 +30,20 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Cliente de Teste de API**: cURL
 
 ---
+
+## ✅ Como executar os testes localmente
+Para executar os testes localmente, utilize o seguinte comando na raíz do projeto: 
+
+```bash
+  pytest
+```
+
+Caso queira executar somente os testes de integração ou os testes unitários, utilize os seguintes comandos na raíz do projeto, respectivamente: 
+
+```bash
+  pytest tests/test_integration.py
+```
+
+```bash
+  pytest tests/test_unit.py
+```
